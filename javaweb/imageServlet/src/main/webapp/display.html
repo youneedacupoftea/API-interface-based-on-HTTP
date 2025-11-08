@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拍照测试页面</title>
+</head>
+
+<body>
+<h1>拍照功能演示</h1>
+
+<form action="http://101.43.133.27:8080/imageServlet-1.0-SNAPSHOT/test" method="post">
+    <!--submit类型的input会渲染成按钮，点击后用户代理尝试提交表单到服务器-->
+    <input type="submit" value="拍照" style="width:90px; height:40px;font-size: 20px">
+</form>
+
+<form action="http://101.43.133.27:8080/imageServlet-1.0-SNAPSHOT/test1" method="post">
+    <!--submit类型的input会渲染成按钮，点击后用户代理尝试提交表单到服务器-->
+    <input type="submit" value="下载" style="width:90px; height:40px;font-size: 20px">
+</form>
+
+<!--
+<a href="http://localhost:8080/imageServlet/test"onclick="showPic(this);return false;">拍照</a>
+<img src=""id="placeholder"alt="This is a result image">
+<script type="text/javascript"src="showPic.js"></script>
+-->
+</body>
+</html>
